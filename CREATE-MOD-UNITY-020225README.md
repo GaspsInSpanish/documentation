@@ -99,11 +99,26 @@ To build the mod you can open the exporter from the menu
 
 Fill in the settings:
 
-* **Mod name**: Name of your mod
-* **Author**: Your (nick)name
-* **Version**: Version of the mod
-* **Description**: Description for your mod
-* **Include Content**: Content to include. For this example it will be Everything
-* **Startup Type**: Type of startup class. For this example it will be Code
-* **Startup class**: Name of the startup class
-* **Output Directory**: Description for your mod (set this to your local mods folder)
+- **Mod name:** Name of your mod
+- **Author:** Your (nick)name
+- **Version:** Version of the mod
+- **Description:** Description for your mod
+- **Include Content:** Content to include. For this example it will be `Everything`
+- **Startup Type:** Type of startup class. For this example it will be `Code`
+- **Startup class:** Name of the startup class
+- **Output Directory:** Description for your mod (set this to your local mods folder)
+
+| OS | local mods folder PATH |
+| ------------- | ------------- |
+|**Windows**|%userprofile%\Documents\My Games\Stationeers\mods|
+|**Linux**|[steam location]/steamapps/compatdata/544550/pfx/drive_c/users/steamuser/Documents/My Games/Stationeers/mods|
+
+
+![Image](export_settings1.png)
+
+On the **Assemblies** tab add the .asmdef file
+
+![Image](export_settings2.png)
+
+Back on the Export tab you can click export and your mod should be built into the output directory.
+
