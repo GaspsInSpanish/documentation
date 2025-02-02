@@ -24,11 +24,12 @@ dnSpy - link - instructions link
 ### TMP Fix
 The game uses TextMeshPro. TextMeshPro is brought down after the project is opened in Unity. However, there is a bug in the TMP Code you can patch by replacing 2 files in:
 
-<table>
-OS	PATH
-Windows	%localappdata%\Unity\cache\packages\packages.unity.com\com.unity.textmeshpro@3.0.6\Scripts\Runtime
-Linux	~/.config/unity3d/cache/packages/packages.unity.com/com.unity.textmeshpro@3.0.6/Scripts/Runtime
-</table>
+
+| OS | log file PATH |
+| ------------- | ------------- |
+|**Windows**|%userprofile%\appdata\LocalLow\Rocketwerkz\rocketstation\Player.log|
+|**Linux**|[steam location]/steamapps/compatdata/544550/pfx/drive_c/users/steamuser/AppData/LocalLow/Rocketwerkz/rocketstation/Player.log|
+
 You can get the files from [TMP_Fix.zip]https://github.com/jixxed/StationeersMods/blob/main/doc/TMP_Fix.zip.
 
 This is a one time patch, since every new project will use the files from that location. Follow the steps below before proceeding so you aren't having to re-duplicate effort later.
@@ -98,11 +99,11 @@ To build the mod you can open the exporter from the menu
 
 Fill in the settings:
 
-* Mod name: Name of your mod
-* Author: Your (nick)name
-* Version: Version of the mod
-* Description: Description for your mod
-* Include Content: Content to include. For this example it will be Everything
-* Startup Type: Type of startup class. For this example it will be Code
-* Startup class: Name of the startup class
-* Output Directory: Description for your mod (set this to your local mods folder)
+* **Mod name**: Name of your mod
+* **Author**: Your (nick)name
+* **Version**: Version of the mod
+* **Description**: Description for your mod
+* **Include Content**: Content to include. For this example it will be Everything
+* **Startup Type**: Type of startup class. For this example it will be Code
+* **Startup class**: Name of the startup class
+* **Output Directory**: Description for your mod (set this to your local mods folder)
