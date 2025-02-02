@@ -24,9 +24,11 @@ dnSpy - link - instructions link
 ### TMP Fix
 The game uses TextMeshPro. TextMeshPro is brought down after the project is opened in Unity. However, there is a bug in the TMP Code you can patch by replacing 2 files in:
 
+<table>
 OS	PATH
 Windows	%localappdata%\Unity\cache\packages\packages.unity.com\com.unity.textmeshpro@3.0.6\Scripts\Runtime
 Linux	~/.config/unity3d/cache/packages/packages.unity.com/com.unity.textmeshpro@3.0.6/Scripts/Runtime
+</table>
 You can get the files from [TMP_Fix.zip]https://github.com/jixxed/StationeersMods/blob/main/doc/TMP_Fix.zip.
 
 This is a one time patch, since every new project will use the files from that location. Follow the steps below before proceeding so you aren't having to re-duplicate effort later.
@@ -88,7 +90,7 @@ Once the project is imported you can check the asmdef in the Scripts folder. it 
 
 (Work)
 
-## Building The Project
+## **Building The Project**
 
 To build the mod you can open the exporter from the menu
 
