@@ -58,4 +58,8 @@ Import Template
 ![image](https://github.com/user-attachments/assets/d45bfd2e-2154-4930-b83b-daa43d172e68)
 
 
+## **Copy assemblies**
+To copy the assemblies you can click the button in the editor. Make sure you have the Stationeers game folder set in the exporter settings. This action will copy over all the assemblies defined in the copy.txt file. Be aware that the game might add new assemblies in the future, so you might need to update this list.
+
+![image](https://github.com/user-attachments/assets/d2e2dc90-20d1-4d9a-a1de-d765304b6650)
 
