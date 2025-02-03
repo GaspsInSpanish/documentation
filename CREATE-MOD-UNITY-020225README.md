@@ -16,9 +16,9 @@ Additionally, this guide assumes you have already followed the instructions the 
 It also assumes you have installed the following software specified in the guide found below:
 
 
-Unity 2022.3.7f1 - [Unity 2022.3.7f1](https://unity.com/releases/editor/whats-new/2022.3.7)
-Unity Explorer - [link](https://github.com/sinai-dev/UnityExplorer) - instructions link
-dnSpy - [dnSpy](https://github.com/dnSpy/dnSpy) - instructions link
+- Unity 2022.3.7f1 - [Unity 2022.3.7f1](https://unity.com/releases/editor/whats-new/2022.3.7)
+- Unity Explorer - [link](https://github.com/sinai-dev/UnityExplorer) - instructions link
+- dnSpy - [dnSpy](https://github.com/dnSpy/dnSpy) - instructions link
 
 
 ### TMP Fix
