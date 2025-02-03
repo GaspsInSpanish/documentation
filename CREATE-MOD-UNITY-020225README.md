@@ -114,11 +114,50 @@ Fill in the settings:
 |**Linux**|[steam location]/steamapps/compatdata/544550/pfx/drive_c/users/steamuser/Documents/My Games/Stationeers/mods|
 
 
-![Image](export_settings1.png)
+![image](https://github.com/user-attachments/assets/a042da12-ea36-4757-b297-e32d33db2719)
+
 
 On the **Assemblies** tab add the .asmdef file
 
-![Image](export_settings2.png)
+![image](https://github.com/user-attachments/assets/4aa53aca-672d-4591-8d17-c8af52dcbd55)
+
 
 Back on the Export tab you can click export and your mod should be built into the output directory.
 
+## Testing
+
+Copy the mod over to the local mods folder if you did not set it as the output directory.
+
+| OS | local mods folder PATH |
+| ------------- | ------------- |
+|**Windows**|%userprofile%\Documents\My Games\Stationeers\mods|
+|**Linux**|[steam location]/steamapps/compatdata/544550/pfx/drive_c/users/steamuser/Documents/My Games/Stationeers/mods|
+
+Start the game and check the logs. This example mod writes a `Hello World!` to the log.
+
+You can see it in game if you have the UnityExplorer plugin or if you check the game log
+
+| OS | log file PATH |
+| ------------- | ------------- |
+|**Windows**|%userprofile%\appdata\LocalLow\Rocketwerkz\rocketstation\Player.log|
+|**Linux**|[steam location]/steamapps/compatdata/544550/pfx/drive_c/users/steamuser/AppData/LocalLow/Rocketwerkz/rocketstation/Player.log|
+
+![Image](load_success.png)
+
+## Modifications
+
+To make the mod your own, replace ExampleMod **EVERYWHERE** with your own name. 
+You can do this at the beginning, after extraction, by editing the files in the `Scripts` folder and the scene in the `Scenes` folder, before importing the project in Unity. 
+The word `ExampleMod` should **NOT** appear anywhere before you publish. The scene also needs to have a unique name, otherwise it might conflict with other mods.
+
+there is a `stationeersmods` file in the `About` folder. This file is mandatory for StationeersMods mods as a way to recognize the mod needs to be processed as a StationeersMods mod.
+
+An overlay image is provided for you to use to create your own thumbnail.
+
+# Upload to Steam Workshop
+
+To upload your mod to steam, go to the workshop menu in the main menu of the game. Select your mod and click Publish.
+After you have published your mod, the `About.xml` file in the local mods folder will be updated with the workshop handle. You can also find this handle in the workshop url.
+Copy this handle and add it in the `About.xml` inside your project.
+
+WARNING: If you don't do this, the next time you publish, the mod will be uploaded as a new mod!
