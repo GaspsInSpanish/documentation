@@ -142,7 +142,8 @@ You can see it in game if you have the UnityExplorer plugin or if you check the 
 |**Windows**|%userprofile%\appdata\LocalLow\Rocketwerkz\rocketstation\Player.log|
 |**Linux**|[steam location]/steamapps/compatdata/544550/pfx/drive_c/users/steamuser/AppData/LocalLow/Rocketwerkz/rocketstation/Player.log|
 
-![Image](load_success.png)
+![image](https://github.com/user-attachments/assets/e73b1690-4bb2-40a7-b9de-c8c5034f9f08)
+
 
 ## Modifications
 
