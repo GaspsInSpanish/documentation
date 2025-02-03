@@ -9,16 +9,16 @@ BEFORE WE BEGIN, REMEMBER
 
 ## **Creating a unity mod**
 
-This guide will help you build your first mod and load it in the game. You can adapt it afterwards to your needs. This guide is written Unity version 2021.2.13f1. (update?)
+This guide will help you build your first mod and load it in the game. You can adapt it afterwards to your needs. This guide is written Unity version  2022.3.7f1.
 
-Additionally, this guide assumes you have already followed the instructions the Stationeers-mods guide located here -> link
+Additionally, this guide assumes you have already followed the instructions the Stationeers-mods guide located here -> [StationeersMods-Readme](https://github.com/jixxed/StationeersMods?tab=readme-ov-file#)
 
-It also assumes you have installed the following software specified in the guide found here -> link
+It also assumes you have installed the following software specified in the guide found below:
 
 
-Unity 2022.3.7f1 - link
-Unity Explorer - link - instructions link
-dnSpy - link - instructions link
+Unity 2022.3.7f1 - [Unity 2022.3.7f1](https://unity.com/releases/editor/whats-new/2022.3.7)
+Unity Explorer - [link](https://github.com/sinai-dev/UnityExplorer) - instructions link
+dnSpy - [dnSpy](https://github.com/dnSpy/dnSpy) - instructions link
 
 
 ### TMP Fix
@@ -30,7 +30,7 @@ The game uses TextMeshPro. TextMeshPro is brought down after the project is open
 |**Windows**|%userprofile%\appdata\LocalLow\Rocketwerkz\rocketstation\Player.log|
 |**Linux**|[steam location]/steamapps/compatdata/544550/pfx/drive_c/users/steamuser/AppData/LocalLow/Rocketwerkz/rocketstation/Player.log|
 
-You can get the files from [TMP_Fix.zip]https://github.com/jixxed/StationeersMods/blob/main/doc/TMP_Fix.zip.
+You can get the files from [TMP_Fix.zip](https://github.com/jixxed/StationeersMods/blob/main/doc/TMP_Fix.zip).
 
 This is a one time patch, since every new project will use the files from that location. Follow the steps below before proceeding so you aren't having to re-duplicate effort later.
 
